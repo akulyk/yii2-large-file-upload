@@ -1,5 +1,5 @@
 {
-    "name": "akulyk/file-upload",
+    "name": "akulyk/yii2-large-file-upload",
     "description": "Extention under development",
     "type": "yii2-extension",
 	"version": "0.0.1",
@@ -11,7 +11,7 @@
         }
     ],
     "support": {
-        "issues": "http://akulyk.dev"
+        "issues": "https://github.com/akulyk/yii2-large-file-upload/issues"
     },
       
     "autoload": {
