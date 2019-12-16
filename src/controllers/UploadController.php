@@ -38,9 +38,9 @@ class UploadController extends Controller
     public function actionIndex()
     {
 
-        $beginUrl = Url::to([$this->module->id . '/upload/begin']);
-        $uploadUrl = Url::to([$this->module->id . '/upload/upload']);
-        $endUrl = Url::to([$this->module->id . '/upload/end']);
+        $beginUrl = Url::to(['upload/begin']);
+        $uploadUrl = Url::to(['upload/upload']);
+        $endUrl = Url::to(['upload/end']);
         $chunkSize = 2 * 1024 * 1024;
         $uploadTimeout = 30 *1000;
         return $this->render('index', [
