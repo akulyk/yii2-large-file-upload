@@ -1,0 +1,22 @@
+{
+    "name": "akulyk/file-upload",
+    "description": "Extention under development",
+    "type": "yii2-extension",
+	"version": "0.0.1",
+	
+    "authors": [
+        {
+            "name": "Alexander Kulyk",
+            "email": "akulyk@yandex.ua"
+        }
+    ],
+    "support": {
+        "issues": "http://akulyk.dev"
+    },
+      
+    "autoload": {
+        "psr-4": {
+            "akulyk\\upload\\": "src"
+        }
+    }
+}
